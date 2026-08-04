@@ -1,0 +1,4 @@
+Navigation Rule: The application will use a hierarchical menu system. The Main Menu provides access to major modules (Transactions, Reports, Search, Categories, Settings), and each module has its own submenu. This keeps navigation organized, scalable, and easier to maintain as features are added.
+
+
+Architecture Rule: The project will follow a layered architecture. User interaction belongs in the UI layer, business rules belong in the Services layer, data persistence belongs in the Repository layer, and reusable helper functions belong in Utils. Each layer communicates only with the layer immediately below it, keeping responsibilities clear and reducing coupling.
