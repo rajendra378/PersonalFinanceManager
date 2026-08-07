@@ -1,0 +1,463 @@
+{
+    "transactions": [
+        {
+            "id": 1,
+            "amount": 50000,
+            "category": "Salary",
+            "mode": "Bank Transfer",
+            "description": "August salary credited",
+            "date": "2026-08-01",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 2,
+            "amount": 250,
+            "category": "Food",
+            "mode": "UPI",
+            "description": "Lunch at Paradise Restaurant",
+            "date": "2026-08-02",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 3,
+            "amount": 1200,
+            "category": "Transport",
+            "mode": "Cash",
+            "description": "Fuel for bike",
+            "date": "2026-08-03",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 4,
+            "amount": 15000,
+            "category": "Freelancing",
+            "mode": "Bank Transfer",
+            "description": "Website development payment",
+            "date": "2026-08-04",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 5,
+            "amount": 799,
+            "category": "Entertainment",
+            "mode": "Credit Card",
+            "description": "Netflix annual subscription",
+            "date": "2026-08-05",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 6,
+            "amount": 5000,
+            "category": "Gift",
+            "mode": "UPI",
+            "description": "Birthday gift from uncle",
+            "date": "2026-08-06",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 7,
+            "amount": 3500,
+            "category": "Shopping",
+            "mode": "Debit Card",
+            "description": "Bought new shoes",
+            "date": "2026-08-06",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 8,
+            "amount": 2000,
+            "category": "Health",
+            "mode": "Cash",
+            "description": "Doctor consultation",
+            "date": "2026-08-07",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 9,
+            "amount": 10000,
+            "category": "Investment",
+            "mode": "Bank Transfer",
+            "description": "Mutual fund redemption",
+            "date": "2026-08-08",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 10,
+            "amount": 850,
+            "category": "Utilities",
+            "mode": "UPI",
+            "description": "Electricity bill payment",
+            "date": "2026-08-09",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 11,
+            "amount": 900,
+            "category": "Food",
+            "mode": "UPI",
+            "description": "Breakfast at cafe",
+            "date": "2026-08-10",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 12,
+            "amount": 50000,
+            "category": "Rental Income",
+            "mode": "Bank Transfer",
+            "description": "Rent received from tenant",
+            "date": "2026-08-11",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 13,
+            "amount": 200,
+            "category": "Food",
+            "mode": "UPI",
+            "description": "Lunch at Paradise Restaurant",
+            "date": "2026-08-12",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 14,
+            "amount": 50000,
+            "category": "Bonus",
+            "mode": "UPI",
+            "description": "Performance bonus credited",
+            "date": "2026-08-13",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 15,
+            "amount": 799,
+            "category": "Travel",
+            "mode": "Credit Card",
+            "description": "Hotel stay payment",
+            "date": "2026-08-14",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 16,
+            "amount": 500,
+            "category": "Food",
+            "mode": "Credit Card",
+            "description": "Pizza order online",
+            "date": "2026-08-15",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 17,
+            "amount": 1500,
+            "category": "Entertainment",
+            "mode": "Bank Transfer",
+            "description": "Movie tickets",
+            "date": "2026-08-16",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 18,
+            "amount": 15000,
+            "category": "Salary",
+            "mode": "Debit Card",
+            "description": "Monthly salary credited",
+            "date": "2026-08-17",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 19,
+            "amount": 25000,
+            "category": "Salary",
+            "mode": "Debit Card",
+            "description": "Salary advance received",
+            "date": "2026-08-18",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 20,
+            "amount": 50000,
+            "category": "Investment",
+            "mode": "Cash",
+            "description": "Mutual fund redemption",
+            "date": "2026-08-19",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 21,
+            "amount": 650,
+            "category": "Insurance",
+            "mode": "Bank Transfer",
+            "description": "Life insurance premium",
+            "date": "2026-08-20",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 22,
+            "amount": 5000,
+            "category": "Freelancing",
+            "mode": "UPI",
+            "description": "Content writing payment",
+            "date": "2026-08-21",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 23,
+            "amount": 3500,
+            "category": "Education",
+            "mode": "Cash",
+            "description": "Tuition fee payment",
+            "date": "2026-08-22",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 24,
+            "amount": 12000,
+            "category": "Gift",
+            "mode": "Bank Transfer",
+            "description": "Birthday gift from uncle",
+            "date": "2026-08-23",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 25,
+            "amount": 799,
+            "category": "Entertainment",
+            "mode": "UPI",
+            "description": "Concert tickets",
+            "date": "2026-08-24",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 26,
+            "amount": 799,
+            "category": "Health",
+            "mode": "Cash",
+            "description": "Health insurance premium",
+            "date": "2026-08-25",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 27,
+            "amount": 150,
+            "category": "Food",
+            "mode": "Cash",
+            "description": "Dinner with friends",
+            "date": "2026-08-26",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 28,
+            "amount": 1500,
+            "category": "Transport",
+            "mode": "UPI",
+            "description": "Cab ride to office",
+            "date": "2026-08-27",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 29,
+            "amount": 350,
+            "category": "Education",
+            "mode": "Cash",
+            "description": "Certification exam fee",
+            "date": "2026-08-28",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 30,
+            "amount": 20000,
+            "category": "Rental Income",
+            "mode": "Debit Card",
+            "description": "Rent received from tenant",
+            "date": "2026-08-29",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 31,
+            "amount": 4500,
+            "category": "Shopping",
+            "mode": "Bank Transfer",
+            "description": "New shirt purchase",
+            "date": "2026-08-30",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 32,
+            "amount": 500,
+            "category": "Transport",
+            "mode": "Credit Card",
+            "description": "Cab ride to office",
+            "date": "2026-08-31",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 33,
+            "amount": 3500,
+            "category": "Education",
+            "mode": "Debit Card",
+            "description": "Certification exam fee",
+            "date": "2026-08-01",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 34,
+            "amount": 5000,
+            "category": "Bonus",
+            "mode": "Debit Card",
+            "description": "Performance bonus credited",
+            "date": "2026-08-02",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 35,
+            "amount": 1200,
+            "category": "Utilities",
+            "mode": "Credit Card",
+            "description": "Electricity bill payment",
+            "date": "2026-08-03",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 36,
+            "amount": 12000,
+            "category": "Salary",
+            "mode": "Debit Card",
+            "description": "Salary advance received",
+            "date": "2026-08-04",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 37,
+            "amount": 1200,
+            "category": "Travel",
+            "mode": "Debit Card",
+            "description": "Flight ticket booking",
+            "date": "2026-08-05",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 38,
+            "amount": 500,
+            "category": "Entertainment",
+            "mode": "Debit Card",
+            "description": "Spotify subscription",
+            "date": "2026-08-06",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 39,
+            "amount": 1500,
+            "category": "Travel",
+            "mode": "Credit Card",
+            "description": "Flight ticket booking",
+            "date": "2026-08-07",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 40,
+            "amount": 10000,
+            "category": "Gift",
+            "mode": "Bank Transfer",
+            "description": "Wedding gift received",
+            "date": "2026-08-08",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 41,
+            "amount": 5000,
+            "category": "Bonus",
+            "mode": "Credit Card",
+            "description": "Performance bonus credited",
+            "date": "2026-08-09",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 42,
+            "amount": 350,
+            "category": "Travel",
+            "mode": "Credit Card",
+            "description": "Flight ticket booking",
+            "date": "2026-08-10",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 43,
+            "amount": 3000,
+            "category": "Entertainment",
+            "mode": "UPI",
+            "description": "Spotify subscription",
+            "date": "2026-08-11",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 44,
+            "amount": 2500,
+            "category": "Shopping",
+            "mode": "Cash",
+            "description": "Online shopping - electronics",
+            "date": "2026-08-12",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 45,
+            "amount": 299,
+            "category": "Travel",
+            "mode": "UPI",
+            "description": "Hotel stay payment",
+            "date": "2026-08-13",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 46,
+            "amount": 50000,
+            "category": "Gift",
+            "mode": "UPI",
+            "description": "Birthday gift from uncle",
+            "date": "2026-08-14",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 47,
+            "amount": 150,
+            "category": "Food",
+            "mode": "UPI",
+            "description": "Lunch at Paradise Restaurant",
+            "date": "2026-08-15",
+            "transaction_type": "Expense"
+        },
+        {
+            "id": 48,
+            "amount": 5000,
+            "category": "Salary",
+            "mode": "Debit Card",
+            "description": "Monthly salary credited",
+            "date": "2026-08-16",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 49,
+            "amount": 10000,
+            "category": "Rental Income",
+            "mode": "Debit Card",
+            "description": "Rent received from tenant",
+            "date": "2026-08-17",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 50,
+            "amount": 10000,
+            "category": "Bonus",
+            "mode": "Credit Card",
+            "description": "Diwali bonus received",
+            "date": "2026-08-18",
+            "transaction_type": "Income"
+        },
+        {
+            "id": 51,
+            "amount": 234567.0,
+            "category": "asd",
+            "description": "sdf",
+            "date": "2026-08-07",
+            "type": "Income",
+            "mode": "Cash"
+        }
+    ]
+}

@@ -80,8 +80,8 @@ def add_transaction_ui(transaction_type):
     description = get_description()
     date = get_date()
     transaction_mode = get_transaction_mode(transaction_type)
-
-    transaction = ser_trx.add_income(amount,category,description,date,transaction_mode,transaction_type)
+    # print("add_transaction_ui called")
+    transaction = ser_trx.add_transaction(amount,category,description,date,transaction_mode,transaction_type)
     
 
     
