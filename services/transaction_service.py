@@ -10,7 +10,7 @@ def add_transaction(amount,
                mode,
                transaction_type):
     ids = repo_trx.get_next_transaction_id()
-    # print(f"{ids} it is called in add_transaction service") 
+    
     transaction = mod_trs.create_transaction(
     ids=ids,
     amount=amount,
@@ -19,7 +19,7 @@ def add_transaction(amount,
     date=date,
     transaction_type = transaction_type,
     mode = mode)
-    # print("save_transaction called in services/transaction_service.py")
+  
     repo_trx.save_transaction(transaction)
     return transaction
 

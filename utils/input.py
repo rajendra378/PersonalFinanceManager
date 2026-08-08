@@ -55,7 +55,7 @@ def get_description():
     return description
 
 def get_date():
-    date = input("enter date : ").strip()
+    date = input("enter date : in format yyyy-mm-dd  or for today date please click enter...").strip()
     if date == "":
         date = datetime.date.today().isoformat()
     return date
