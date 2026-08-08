@@ -458,6 +458,15 @@
             "date": "2026-08-07",
             "type": "Income",
             "mode": "Cash"
+        },
+        {
+            "id": 52,
+            "amount": 100.0,
+            "category": "dssf",
+            "description": "fdasgdf",
+            "date": "2026-08-08",
+            "type": "Income",
+            "mode": "Other"
         }
     ]
 }

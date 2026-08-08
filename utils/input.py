@@ -40,6 +40,21 @@ def get_amount():
                 print(f"{message}")
                 
 
+def get_id():
+    while True:
+        try:
+            ids = float(input("Enter id : "))
+            ser_val.validate_id(ids)
+            return ids
+        except ValueError as e:
+            message = str(e)
+            if "could not convert" in message:
+                print("Enter a valid number.")
+            else:
+                print(f"{message}")
+
+
+
 def get_category():
     while True:
         try:
@@ -74,6 +89,14 @@ def get_transaction_mode(transaction_type):
     choice = get_menu_choice(1,len(transaction_mode))
 
     return transaction_mode[choice-1]
+
+def get_transaction_type():
+    trx_type = input("1.Income and 2.Expense -- please choose option 1 or 2 : ")
+
+    return "Income" if trx_type == "1" else "Expense"
+
+
+
 def add_transaction_ui(transaction_type):
     amount = get_amount()
     category = get_category()

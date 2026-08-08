@@ -2,21 +2,17 @@ from utils.input import get_menu_choice
 import utils.formatter as uti_for
 from utils.input import add_transaction_ui
 import services.transaction_service as ser_trx
-
-def transaction_menu():
+from ui.all_menus import TRANSACTION_MENU
+def display_transaction_menu():
     while True:
         print("\n" + "=" * 50)
         print("      Transaction Menu")
         print("="* 50)
 
-        print("1. Add Income")
-        print("2. Add Expense")
-        print("3. Edit Transaction")
-        print("4. Delete Transaction")
-        print("5. View Transaction")
-        print("6. Back")
+        for index,value in enumerate(TRANSACTION_MENU,start=1):
+            print(f"{index}. {value}")
 
-        choice = get_menu_choice(1,6)
+        choice = get_menu_choice(1,len(TRANSACTION_MENU))
 
         if choice ==1:
             add_transaction_ui("Income")
@@ -43,5 +39,5 @@ def transaction_menu():
                     uti_for.display_transaction_format(transaction)
         
         elif choice ==6:
-            print("\n Return to Main Menu - Coming Soon")
+            print("\n Return to Main Menu")
             break
