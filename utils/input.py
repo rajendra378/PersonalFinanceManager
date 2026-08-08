@@ -90,9 +90,24 @@ def get_transaction_mode(transaction_type):
 
     return transaction_mode[choice-1]
 
-def get_transaction_type():
-    trx_type = input("1.Income and 2.Expense -- please choose option 1 or 2 : ")
 
+def get_transaction_mode_for_search():
+
+    transaction_mode = ["Cash","UPI", "Bank Transfer", "Cheque", "Credit Card", "Debit Card", "Other"]
+  
+
+    for i,value in enumerate (transaction_mode,start=1):
+        print(f"{i}. {value}")
+        
+    choice = get_menu_choice(1,len(transaction_mode))
+
+    return transaction_mode[choice-1]
+
+
+
+def get_transaction_type_for_search():
+    trx_type = input("1.Income and 2.Expense : ")
+    
     return "Income" if trx_type == "1" else "Expense"
 
 

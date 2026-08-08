@@ -7,8 +7,8 @@ def create_transaction(ids,amount,category,description,date,transaction_type,mod
         "id":ids,
         "amount":amount,
             "category":category,
+            "mode":mode,    
             "description":description,
             "date":date,
-            "type":transaction_type,
-            "mode":mode,    
+            "transaction_type":transaction_type,
     }

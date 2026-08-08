@@ -34,10 +34,9 @@ def search_menu():
 
                 
         elif choice ==3:
-            transaction_type = uti_in.get_transaction_type()
-
-            transactions = ser_search.search_transaction_by_mode(transaction_type)
-
+            transaction_type = uti_in.get_transaction_type_for_search()
+            transactions = ser_search.search_transaction_by_type(transaction_type)
+            
             for index,transaction in enumerate(transactions,start=1):
                 uti_for.display_front_header(index)
                 uti_for.display_transaction_format(transaction)
@@ -62,16 +61,16 @@ def search_menu():
                 uti_for.display_transaction_format(transaction)
 
         elif choice ==6:
-            description = uti_in.get_description(index)
+            description = uti_in.get_description()
 
             transactions = ser_search.search_transaction_by_description(description)
 
             for index,transaction in enumerate(transactions,start=1):
-                uti_for.display_front_header()
+                uti_for.display_front_header(index)
                 uti_for.display_transaction_format(transaction)
                 
         elif choice ==7:
-            mode = uti_in.get_transaction_mode(index)
+            mode = uti_in.get_transaction_mode_for_search()
             transactions = ser_search.search_transaction_by_mode(mode)
 
             for index,transaction in enumerate(transactions,start=1):

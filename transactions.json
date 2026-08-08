@@ -454,19 +454,19 @@
             "id": 51,
             "amount": 234567.0,
             "category": "asd",
+            "mode": "Cash",
             "description": "sdf",
             "date": "2026-08-07",
-            "type": "Income",
-            "mode": "Cash"
+            "transaction_type": "Income"
         },
         {
             "id": 52,
             "amount": 100.0,
             "category": "dssf",
+            "mode": "Other",
             "description": "fdasgdf",
             "date": "2026-08-08",
-            "type": "Income",
-            "mode": "Other"
+            "transaction_type": "Income"
         }
     ]
 }
