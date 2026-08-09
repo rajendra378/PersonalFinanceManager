@@ -12,26 +12,24 @@ def search_transaction_by_id(search_id):
 def search_transaction_by_category(category):
     transactions = repo_trx.get_all_transactions()
 
-    search_category = category.lower()
-
     return list(filter(
-        lambda transaction: search_category in transaction["category"].lower() ,transactions
+        lambda transaction: category.lower() in transaction["category"].lower() ,transactions
     ))
 
 def search_transaction_by_type(transaction_types):
 
     transactions = repo_trx.get_all_transactions()
-    trx = []
+
     for i in transactions:
         return list(
             filter(lambda transaction:transaction["transaction_type"].lower() == transaction_types.lower(),transactions)
             )
 
-def search_transaction_by_mode(transaction_mode):
+def search_transaction_by_mode(mode):
     transactions = repo_trx.get_all_transactions()
 
     return list(
-            filter(lambda transaction:transaction["mode"].lower() == transaction_mode.lower(),transactions)
+            filter(lambda transaction:transaction["mode"].lower() == mode.lower(),transactions)
             )
 
 def search_transaction_by_date(transaction_date):
@@ -51,8 +49,6 @@ def search_transaction_by_amount(transaction_amount):
 def search_transaction_by_description(search_description):
     transactions = repo_trx.get_all_transactions()
 
-    description = search_description.lower()
-
     return list(filter(
-        lambda transaction: description in transaction["description"].lower() ,transactions
+        lambda transaction: search_description.lower() in transaction["description"].lower() ,transactions
     ))
