@@ -33,10 +33,8 @@ def display_transaction_menu():
             if not transactions:
                 print("\nNo transactions found")
             else:
-                for index,transaction in enumerate(transactions,start=1):
-                    uti_for.display_front_header(index)
-            
-                    uti_for.display_transaction_format(transaction)
+
+                uti_for.display_transaction(transactions)
         
         elif choice ==6:
             print("\n Return to Main Menu")
