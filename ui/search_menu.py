@@ -22,7 +22,7 @@ def search_menu():
         elif choice ==2:
             category = uti_in.get_category()
 
-            transactions = ser_search.search_transaction_by_category(category)
+            transactions = ser_search.search_transaction_by_description_or_category(category)
 
             uti_for.display_transaction(transactions)
 
@@ -51,7 +51,7 @@ def search_menu():
         elif choice ==6:
             description = uti_in.get_description()
 
-            transactions = ser_search.search_transaction_by_description(description)
+            transactions = ser_search.search_transaction_by_description_or_category(description)
 
             uti_for.display_transaction(transactions)
                 
